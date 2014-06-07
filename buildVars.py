@@ -11,18 +11,17 @@ addon_info = {
 	# for previously unpublished addons, please follow the community guidelines at:
 	# https://bitbucket.org/nvdaaddonteam/todo/raw/master/guideLines.txt
 	# add-on Name, internal for nvda
-	"addon-name" : "addonTemplate",
+	"addon-name" : "avp",
 	# Add-on summary, usually the user visible name of the addon.
 	# Translators: Summary for this add-on to be shown on installation and add-on information.
-	"addon-summary" : _("Add-on user visible name"),
+	"addon-summary" : _("Kaspersky Internet Security"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon-description" : _("""Description for the add-on.
-It can span multiple lines."""),
+	"addon-description" : _("""this add-on makes Kaspersky Internet Security more accessible by labelling some of the controls."""),
 	# version
-	"addon-version" : "x.y",
+	"addon-version" : "0.1",
 	# Author(s)
-	"addon-author" : u"name <name@domain.com>",
+	"addon-author" : u"David Parduhn <xkill85@gmx.net>",
 	# URL for the add-on documentation support
 	"addon-url" : None
 }

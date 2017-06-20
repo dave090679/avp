@@ -11,20 +11,22 @@ addon_info = {
 	# for previously unpublished addons, please follow the community guidelines at:
 	# https://bitbucket.org/nvdaaddonteam/todo/raw/master/guideLines.txt
 	# add-on Name, internal for nvda
-	"addon-name" : "avp",
+	"addon_name" : "avp",
 	# Add-on summary, usually the user visible name of the addon.
 	# Translators: Summary for this add-on to be shown on installation and add-on information.
-	"addon-summary" : _("Kaspersky Internet Security"),
+	"addon_summary" : _("Kaspersky Internet Security"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon-description" : _("""this add-on makes Kaspersky Internet Security more accessible by labelling some of the controls."""),
+	"addon_description" : _("""Diese Erweiterung verbessert die Zugänglichkeit von Kaspersky Internet Security.
+Sie wurde mit KIS 2014, 2015, 2016 und 2017 unter Windows 7 getestet und entwickelt."""),
 	# version
-	"addon-version" : "0.10",
+	"addon_version" : "0.10",
 	# Author(s)
-	"addon-author" : u"David Parduhn <xkill85@gmx.net>",
+	"addon_author" : u"David Parduhn <xkill85@gmx.net>",
 	# URL for the add-on documentation support
-	"addon-url" : None,
-	"addon_docFileName" : "readme.html"
+	"addon_url" : None,
+	# Documentation file name
+	"addon_docFileName" : "readme.html",
 }
 
 
@@ -35,7 +37,7 @@ import os.path
 pythonSources = []
 
 # Files that contain strings for translation. Usually your python sources
-i18nSources = pythonSources + ["buildVars.py", "docHandler.py"]
+i18nSources = pythonSources + ["buildVars.py"]
 
 # Files that will be ignored when building the nvda-addon file
 # Paths are relative to the addon directory, not to the root directory of your addon sources.

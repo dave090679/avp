@@ -17,8 +17,8 @@ addon_info = {
 	"addon_summary" : _("Kaspersky Internet Security"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon_description" : _("""Diese Erweiterung verbessert die Zugänglichkeit von Kaspersky Internet Security.
-Sie wurde mit KIS 2014, 2015, 2016 und 2017 unter Windows 7 getestet und entwickelt."""),
+	"addon_description" : _("""Diese Erweiterung verbessert die Zugaenglichkeit von Kaspersky Internet Security
+2013 bis 2017."""),
 	# version
 	"addon_version" : "0.10",
 	# Author(s)

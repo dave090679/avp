@@ -19,7 +19,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon-description" : _("""this add-on makes Kaspersky Internet Security more accessible by labelling some of the controls."""),
 	# version
-	"addon-version" : "0.9",
+	"addon-version" : "0.10",
 	# Author(s)
 	"addon-author" : u"David Parduhn <xkill85@gmx.net>",
 	# URL for the add-on documentation support

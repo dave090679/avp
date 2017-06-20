@@ -23,7 +23,8 @@ addon_info = {
 	# Author(s)
 	"addon-author" : u"David Parduhn <xkill85@gmx.net>",
 	# URL for the add-on documentation support
-	"addon-url" : None
+	"addon-url" : None,
+	"addon_docFileName" : "readme.html"
 }
 
 

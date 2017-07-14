@@ -125,7 +125,7 @@ Der Selbstschutz von KIS verhindert eine Deinstallation über Systemsteuerung --
 ## weitere Informationen zur Barrierefreiheit von Kaspersky Internet Security
 
 Im Benutzerforum von Kaspersky Lab finden Sie weitere aktuelle Informationen rund um die Barrierefreiheit von Kaspersky Internet Security. Das Forum ist unter dem folgenden Link zu finden: 
-<https://forum.kaspersky.com/lofiversion/index.php/t210098.html>
+<https://forum.kaspersky.com/index.php?/topic/210098-kis-2012-barrierefreier-modus/>
 
 Dort finden Sie auch die aktuelle Version der Erweiterung zum Download.
 

@@ -1,4 +1,4 @@
-# NVDA-Erweiterung für Kaspersky Internet Security #
+﻿# NVDA-Erweiterung für Kaspersky Internet Security #
 
 Diese Erweiterung verbessert die Zugänglichkeit von Kaspersky Internet Security 2013 bis 2017. der größte Teil der Oberfläche von KIS wird aussagekräftig beschriftet. Folgende Punkte sind jedoch (noch) beim Umgang mit KIS zu beachten
 
@@ -6,6 +6,7 @@ Diese Erweiterung verbessert die Zugänglichkeit von Kaspersky Internet Security
 
 Aufgrund von Unzulänglichkeiten bei der Barrierefreiheit von KIS ist es leider (noch) nicht möglich, das Programm unter Zuhilfenahme von NVDA zu installieren. Zum Auslesen der oberfläche werden Sie aus diesem Grund eine optische Zeichenerkennung (OCR) benutzen müssen. Bisherige Erfahrungen mit KIS 2016 und 2017 zeigten, dass sich dafür die OCR des Marktbegleitenden Screenreaders Jaws von Freedom Scientific sehr gut eignet. Jaws kann von der [Downloadseite von Freedomscientific](http://www.freedomsci.de/serv01.htm) heruntergeladen werden.
 
+Seit Windows 10 1703 enthält Windows OneCore unter anderem eine optische Zeichenerkennung für viele Sprachen, die Sie mit NVDA ab Version 2017.3 verwenden können, um Kaspersky Internet Security zu installieren. Dies bedeutet, dass Sie keinen zweiten Bildschirmleser mehr verwenden müssen, wenn Sie KIS installieren. 
 ### so installieren Sie Kaspersky Internet Security unter Zuhilfenahme von Jaws
 
 * beenden Sie NVDA und starten Sie Jaws für Windows
@@ -17,6 +18,17 @@ Aufgrund von Unzulänglichkeiten bei der Barrierefreiheit von KIS ist es leider 
  - Verwenden Sie das Divisionszeichen des Nummernblocks, um an der gewünschten Stelle des Bildschirms einen Linksklick zu emulieren.
 * Wiederholen Sie die oben beschriebenen Schritte für jeden HinweisBildschirm des Installtionsprogramms von Kaspersky Internet Security
 * Nach Abschluss der Installation können Sie Jaws beenden und zu NVDA zurückkehren.
+
+### so installieren Sie Kaspersky Internet Security unter Zuhilfenahme der Texterkennung unter Windows 10
+
+* Starten Sie die Installation von Kaspersky Internet Security
+* Wenn Sie von der Benutzerkontensteuerung von Windows gefragt werden, ob Sie zulassen möchten, dass durch das Programm Veränderungen an dem Computer vorgenommen werden, bestätigen Sie diese Abfrage mit "ja". Eventuell öffnet sich das Dialogfeld im hintergrund, sodass Sie es zunächst mit alt+tab in den Vordergrund holen müssen.
+* Gehen Sie folgendermaßen vor, um einen bildschirminhalt bei der Installation mit der OCR von Jaws auszulesen:
+ - Verwenden Sie den Navigator, um das Hauptfenster des Installationsprogramms von Kaspersky Internet Security aufzusuchen. Dieses sollte in der Form "kaspersky Internet Seciruty Fenster" Bzw. "kaspersky Internet Security Fnstr" angezeigt werden.
+ - drücken Sie die Tastenkombination nvda+r, um die Texterkennung von NVDA zu Starten. nach Abschluss der Texterkennung wird das Erkennungsergebnis in einem virtuellen Dokument im Lesemodus angezeigt.
+ - Verwenden Sie die Pfeiltasten, die navigationstasten an Ihrer Braillezeile oder die Pfeiltasten des Nummernblocks, um den Cursor über den Bildschirminhalt zu bewegen Bzw. den Bildschirminhalt zu lesen.
+ - Drücken Sie die Leertaste Bzw. die Eingabetaste, um an der gewünschten Stelle des Bildschirms einen Linksklick zu emulieren.
+* Wiederholen Sie die oben beschriebenen Schritte für jeden HinweisBildschirm des Installtionsprogramms von Kaspersky Internet Security.
 
 ## Hinweise zur Verwendung von Kaspersky Internet Security
 

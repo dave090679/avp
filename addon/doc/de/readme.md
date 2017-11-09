@@ -16,19 +16,20 @@ Seit Windows 10 1703 enthält Windows OneCore unter anderem eine optische Zeiche
  - drücken Sie die Tastenkombination einfügen+o, s Bzw. Feststelltaste+o, s, um die Texterkennung von Jaws zu Starten. nach Abschluss der Texterkennung wird der jaws-Cursor (der Mauszeiger) automatisch aktiviert.
  - Verwenden Sie die Pfeiltasten, die navigationstasten an Ihrer Braillezeile oder die Pfeiltasten des Nummernblocks, um den Jaws-Cursor über den Bildschirminhalt zu bewegen Bzw. den Bildschirminhalt zu lesen.
  - Verwenden Sie das Divisionszeichen des Nummernblocks, um an der gewünschten Stelle des Bildschirms einen Linksklick zu emulieren.
-* Wiederholen Sie die oben beschriebenen Schritte für jeden HinweisBildschirm des Installtionsprogramms von Kaspersky Internet Security
+* Wiederholen Sie die oben beschriebenen Schritte für jeden HinweisBildschirm des Installationsprogramms von Kaspersky Internet Security
 * Nach Abschluss der Installation können Sie Jaws beenden und zu NVDA zurückkehren.
 
 ### so installieren Sie Kaspersky Internet Security unter Zuhilfenahme der Texterkennung unter Windows 10
 
 * Starten Sie die Installation von Kaspersky Internet Security
 * Wenn Sie von der Benutzerkontensteuerung von Windows gefragt werden, ob Sie zulassen möchten, dass durch das Programm Veränderungen an dem Computer vorgenommen werden, bestätigen Sie diese Abfrage mit "ja". Eventuell öffnet sich das Dialogfeld im hintergrund, sodass Sie es zunächst mit alt+tab in den Vordergrund holen müssen.
-* Gehen Sie folgendermaßen vor, um einen bildschirminhalt bei der Installation mit der OCR von Jaws auszulesen:
+* Gehen Sie folgendermaßen vor, um einen bildschirminhalt bei der Installation mit der OCR von Windows 10 auszulesen:
  - Verwenden Sie den Navigator, um das Hauptfenster des Installationsprogramms von Kaspersky Internet Security aufzusuchen. Dieses sollte in der Form "kaspersky Internet Seciruty Fenster" Bzw. "kaspersky Internet Security Fnstr" angezeigt werden.
  - drücken Sie die Tastenkombination nvda+r, um die Texterkennung von NVDA zu Starten. nach Abschluss der Texterkennung wird das Erkennungsergebnis in einem virtuellen Dokument im Lesemodus angezeigt.
  - Verwenden Sie die Pfeiltasten, die navigationstasten an Ihrer Braillezeile oder die Pfeiltasten des Nummernblocks, um den Cursor über den Bildschirminhalt zu bewegen Bzw. den Bildschirminhalt zu lesen.
  - Drücken Sie die Leertaste Bzw. die Eingabetaste, um an der gewünschten Stelle des Bildschirms einen Linksklick zu emulieren.
-* Wiederholen Sie die oben beschriebenen Schritte für jeden HinweisBildschirm des Installtionsprogramms von Kaspersky Internet Security.
+ - Drücken Sie ESC, um das Erkennungsergebnis zu schließen.
+* Wiederholen Sie die oben beschriebenen Schritte für jeden HinweisBildschirm des Installationsprogramms von Kaspersky Internet Security.
 
 ## Hinweise zur Verwendung von Kaspersky Internet Security
 

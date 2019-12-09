@@ -20,7 +20,7 @@ addon_info = {
 	"addon_description" : _("""Diese Erweiterung verbessert die Zugaenglichkeit von Kaspersky Internet Security
 2013 bis 2019."""),
 	# version
-	"addon_version" : "0.15",
+	"addon_version" : "0.16",
 	# Author(s)
 	"addon_author" : u"David Parduhn <xkill85@gmx.net>",
 	# URL for the add-on documentation support

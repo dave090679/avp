@@ -1,6 +1,6 @@
-﻿# NVDA-Erweiterung für Kaspersky Internet Security #
+﻿# NVDA-Erweiterung für Kaspersky Internet Security
 
-Diese Erweiterung verbessert die Zugänglichkeit von Kaspersky Internet Security 2013 bis 2019. der größte Teil der Oberfläche von KIS wird aussagekräftig beschriftet. Folgende Punkte sind jedoch (noch) beim Umgang mit KIS zu beachten
+Diese Erweiterung verbessert die Zugänglichkeit von Kaspersky Internet Security 2013 bis 2020. der größte Teil der Oberfläche von KIS wird aussagekräftig beschriftet. Folgende Punkte sind jedoch (noch) beim Umgang mit KIS zu beachten
 
 ## Installation von Kaspersky Internet Security
 
@@ -26,17 +26,13 @@ Seit Windows 10 1703 enthält Windows OneCore unter anderem eine optische Zeiche
 * Wenn Sie von der Benutzerkontensteuerung von Windows gefragt werden, ob Sie zulassen möchten, dass durch das Programm Veränderungen an dem Computer vorgenommen werden, bestätigen Sie diese Abfrage mit "ja". Eventuell öffnet sich das Dialogfeld im hintergrund, sodass Sie es zunächst mit alt+tab in den Vordergrund holen müssen.
 * Gehen Sie folgendermaßen vor, um einen bildschirminhalt bei der Installation mit der OCR von Windows 10 auszulesen:
  - drücken Sie die Tastenkombination nvda+r, um die Texterkennung von NVDA zu Starten. nach Abschluss der Texterkennung wird das Erkennungsergebnis in einem virtuellen Dokument im Lesemodus angezeigt.
- - Verwenden Sie die Pfeiltasten, die navigationstasten an Ihrer Braillezeile oder die Pfeiltasten des Nummernblocks, um den Cursor über den Bildschirminhalt zu bewegen Bzw. den Bildschirminhalt zu lesen.
+ - Verwenden Sie die Pfeiltasten oder die navigationstasten an Ihrer Braillezeile, um den Cursor über den Bildschirminhalt zu bewegen Bzw. den Bildschirminhalt zu lesen.
  - Drücken Sie die Leertaste Bzw. die Eingabetaste, um an der gewünschten Stelle des Bildschirms einen Linksklick zu emulieren.
  - Drücken Sie ESC, um das Erkennungsergebnis zu schließen.
 * Wiederholen Sie die oben beschriebenen Schritte für jeden HinweisBildschirm des Installationsprogramms von Kaspersky Internet Security.
 
-#### Hinweis zu Kaspersky Internet Security 2019
-Aufgrund geänderter Datenschutzbestimmungen durch die DSGVO sah sich Kaspersky Lab gezwungen, einen zusätzlichen Lizenzvertrag während der Installation zwischenzuschalten. Dieser Lizenzvertrag wird angezeigt, nachdem Sie den Eröffnungsbildschirm mit "fortsetzen" quittiert haben. In diesem Lizenzvertrag gibt es zwei Kontrollkästchen, die aktiviert werden müssen, bevor Sie den Lizenzvertrag mit der Schaltfläche "akzeptieren" annehmen können. Diese Kontrollkästchen verstecken sich unter dem Satz "ich bestätige dass ich die Lizenzbestimmungen vollständig gelesen und verstanden habe und akzeptiere sie." bzw. "ich bestätige dass ich die Datenschutzerklärung vollständig gelesen und verstanden habe und akzeptiere sie". Bisherige Erfahrungen mit KIS 2019 und NVDA legen nahe, dass sich das Kontrollkästchen unter dem Wort "akzeptiere" zu verbergen scheint. Gehen Sie daher nach dem Aufrufen der Texterkennung wie folgt vor, um die Kontrollkästchen zu aktivieren.
-
-* Verwenden Sie die Pfeiltasten nach unten Bzw. nach oben, um nach dem Satz "ich bestätige, dass ich die Lizenzbestimmungen Bzw. die Datenschutzerklärung vollständig gelesen und verstanden habe und akzeptiere sie." zu suchen.
-* Verwenden Sie die Tastenkombination strg+Pfeiltaste nach rechts Bzw. strg+Pfeiltaste nach links, um innerhalb des Satzes das Wort "akzeptiere" aufzusuchen.
-* Drücken Sie die Eingabetaste, um einen Linksklick auf das Wort "akzeptiere" zu emulieren und dadurch das Kontrollkästchen zu aktivieren.
+#### Hinweis zu Kaspersky Internet Security 2019 und 2020
+Aufgrund geänderter Datenschutzbestimmungen durch die DSGVO sah sich Kaspersky Lab gezwungen, einen zusätzlichen Lizenzvertrag während der Installation zwischenzuschalten. Dieser Lizenzvertrag wird angezeigt, nachdem Sie den Eröffnungsbildschirm mit "fortsetzen" quittiert haben. In diesem Lizenzvertrag gibt es zwei Kontrollkästchen, die aktiviert werden müssen, bevor Sie den Lizenzvertrag mit der Schaltfläche "akzeptieren" annehmen können. Diese Kontrollkästchen verstecken sich unter dem Satz "ich bestätige dass ich die Lizenzbestimmungen vollständig gelesen und verstanden habe und akzeptiere sie." bzw. "ich bestätige dass ich die Datenschutzerklärung vollständig gelesen und verstanden habe und akzeptiere sie". 
 
 
 ## Hinweise zur Verwendung von Kaspersky Internet Security
@@ -49,6 +45,15 @@ Selbst die mausbezogenen Hilfsfunktionen von NVDA werden durch den Selbstschutz 
 
 der Selbstschutz von KIS stellt deshalb eine Barriere für Nutzer von Bildschirmleseprogrammen dar. Zur Umgehung der durch den Selbstschutz bedingten Behinderungen gibt es jedoch einige Lösungswege, die in den folgenden Abschnitten gezeigt werden sollen.
 
+
+### Deaktivieren des Selbstschutzes
+In Kaspersky Internet Security 2020 ist es möglich, den Selbstschutz mit Hilfe der Tastatur zu deaktivieren. Gehen Sie folgendermaßen vor, um den Selbstschutz zu deaktivieren:
+* Rufen Sie die Einstellungen von Kaspersky Internet Security auf. Öffnen Sie dazu das Kontextmenü des Infobereichssymbols von Kaspersky Internet Security und wählen Sie dort den Menüpunkt Einstellungen. Alternativ können Sie auch den Schalter Einstellungen im Hauptfenster von Kaspersky Internet Security drücken.
+* Wählen Sie in der Liste der Kategorien den Eintrag "erweitert" aus.
+* Drücken Sie den Schalter "Selbstschutz", das Dialogfeld "Selbstschutz erscheint.
+* Deaktivieren Sie das Kontrollkästchen "Selbstschutz aktivieren", ein Dialog erscheint, in dem Sie ihre Zustimmung geben (diese Aktion zulassen) müssen.
+* drücken Sie die Leertaste, um die Aktion zuzulassen, der Dialog verschwindet und die Einstellungen erscheinen wieder, diesmal ist das Kontrollkästchen jedoch deaktiviert.
+
 ### Einrichten des Kennwortschutzes
 
 Beim Umgang mit KIS stellt der Selbstschutz (siehe oben) manchmal eine Behinderung dar, weil die Dialoge des Selbstschutzes mit Bildschirmlesern nicht ausgelesen Bzw. nicht mit der Tastatur bedient werden können. Dies betrifft z. B. das Beenden von KIS oder das Deaktivieren von Schutzkomponenten. Mit dem Kommandozeilenprogramm AVP, das zu KIS gehört, ist es jedoch möglich, diese Aufgaben auszuführen, ohne durch den Selbstschutz behindert zu werden. Das Kommandozeilenprogramm AVP verlangt jedoch für manche Aufgaben ein Kennwort, das zuvor in den Einstellungen von KIS festgelegt werden muss.
@@ -57,7 +62,7 @@ Beim Umgang mit KIS stellt der Selbstschutz (siehe oben) manchmal eine Behinderu
 
 * Rufen Sie über das Kontextmenü des KIS-Symbols im Infobereich der Taskleiste die Einstellungen von KIS auf. 
 * Drücken Sie in der Kategorie Allgemein den Schalter "kennwortschutz einrichten". Ein entsprechendes Dialogfeld erscheint.
-* Tragen Sie in beide Eingabefelder ein kennwort ein.
+* Tragen Sie in beide Eingabefelder ein kennwort ein. Bei Kaspersky Internet Security 2020 muss das Kennwort Groß- und Kleinbuchstaben und Ziffern enthalten.
 * Legen Sie mit den Kontrollkästchen fest, wann der kennwortschutz wirksam sein soll. Folgende Optionen sollten Sie aktivieren:
  - Programmeinstellungen anpassen: Das kennwort wird abgefragt, sobald Sie die Einstellungen von KIS aufrufen oder Schutzkomponenten deaktivieren möchten. Das Aktivieren dieser option ist nötig, weil das Kommandozeilenprogramm avp (siehe unten) zwingend ein Kennwort voraussetzt, wenn Sie Schutzkomponenten deaktivieren.
  - Programm beenden: Das kennwort wird abgefragt, wenn Sie KIS beenden wollen. Die aktivierung dieser option ist nötig, weil das Kommandozeilenprogramm AVP zwingend ein Kennwort voraussetzt, wenn Sie KIS beenden.
@@ -74,10 +79,10 @@ Benutzer von Bildschirmleseprogrammen haben dabei das Problem, dass der Selbstsc
 
 * rufen Sie eine Eingabeaufforderung (cmd) auf.
 * Wechseln Sie in das Programmverzeichnis, in dem Sie KIS installiert haben (zum Beispiel "c:\Program files (x86)\Kaspersky lab\Kaspersky Internet Security 19.0.0")
-* Verwenden Sie den Befehl avp  stop Schutzkomponente, um die angegebene Schutzkomponente zu deaktivieren. Folgende Schutzkomponenten sind in Kaspersky Internet Security 2019 verfügbar (die in Klammern stehenden Namen können als Abkürzungen verwendet werden):
+* Verwenden Sie den Befehl avp  stop Schutzkomponente, um die angegebene Schutzkomponente zu deaktivieren. Folgende Schutzkomponenten sind in Kaspersky Internet Security 2020 verfügbar (die in Klammern stehenden Namen können als Abkürzungen verwendet werden):
  - AgreementsStatisticsSendTask
  - Anti_Spam (AS)
- - AntiBannerTask
+- AntiBannerTask
  - ApplicationInvestigatorTask
  - AVStreamMonitorTask
  - DntTask
@@ -86,6 +91,7 @@ Benutzer von Bildschirmleseprogrammen haben dabei das Problem, dass der Selbstsc
  - FirewallGroup
  - HipsTask (HIPS)
  - httpscan (HTTP)
+ - HvmMonitorTask
  - ids
  - IM_Monitoring (IM)
  - Inventory_Scan
@@ -110,12 +116,10 @@ Benutzer von Bildschirmleseprogrammen haben dabei das Problem, dass der Selbstsc
  - SISettingsUpdaterTask
  - SW2
  - TrafficProcessingPreloader
- - TrustedBoot
  - UiSettingsStorage
  - UnwantedProductDiscoveryTask
  - UnwantedProductDiscoveryTaskBackground
  - Updater
- - Web_Monitoring (WM)
  - WebToolBar
  - WiFiProtection
 * Geben Sie das Kennwort ein, wenn Sie dazu aufgefordert werden.
@@ -137,6 +141,8 @@ Manchmal kann es erforderlich sein, Kaspersky Internet Security zu beenden.  Die
 
 Der Selbstschutz von KIS verhindert eine Deinstallation über Systemsteuerung --> Programme und Funktionen. Sie können KIS jedoch mit Hilfe eines speziellen Entfernungswerkzeugs deinstallieren. Das Entfernungswerkzeug kann mit NVDA unter Umständen nicht richtig bedient werden. Sie können jedoch einen anderen Bildschirmleser wie Jaws für Windows verwenden, um das Entfernungswerkzeug zu bedienen. In der folgenden Anleitung wird davon ausgegangen, dass Jaws bereits gestartet wurde.
 
+Bei Kaspersky Internet Security 2020 benötigen Sie das Entfernungstool nicht mehr, weil Sie den Selbstschutz deaktivieren und dann KIS über Programme und Features deinstallieren können.
+
 #### so deinstallieren Sie KIS mit Hilfe des Entfernungswerkzeugs
 
 * Beenden Sie KIS mit Hilfe des Kommandozeilenprogramms AVP (siehe oben).
@@ -144,6 +150,14 @@ Der Selbstschutz von KIS verhindert eine Deinstallation über Systemsteuerung --
 * akzeptieren Sie den Lizenzvertrag
 * Wählen Sie das zu entfernende Produkt aus und lösen Sie das Captcha. Seien Sie beim Auslesen des Bildschirminhalts aufmerksam, weil sich die angezeigten (und einzugebenden) Zeichen des Captchas sehr großräumig verteilen können.
 * ist das Captcha korrekt, so beginnt das Entfernungswerkzeug nach dem Betätigen des Schalters "löschen", Kaspersky Internet Security zu entfernen.
+
+
+#### So deinstallieren Sie Kaspersky Internet Security 2020 über Programme und Funktionen
+* Deaktivieren Sie den Selbstschutz
+* Beenden Sie KIS mit Hilfe des Kommandozeilenprogramms AVP
+* Rufen Sie den Dialog Programme und Funktionen in der Systemsteuerung von Windows auf.
+* Markieren Sie den Eintrag Kaspersky Internet Security 2020 und wählen Sie aus dessen Kontextmenü den Eintrag "deinstallieren" aus.
+* Folgen Sie den Anweisungen des Deinstallationsprogramms.
 
 
 ## weitere Informationen zur Barrierefreiheit von Kaspersky Internet Security

@@ -163,7 +163,10 @@ Bei Kaspersky Internet Security 2020 benötigen Sie das Entfernungstool nicht me
 ## weitere Informationen zur Barrierefreiheit von Kaspersky Internet Security
 
 Im Benutzerforum von Kaspersky Lab finden Sie weitere aktuelle Informationen rund um die Barrierefreiheit von Kaspersky Internet Security. Das Forum ist unter dem folgenden Link zu finden: 
-<https://forum.kaspersky.com/index.php?/topic/210098-kis-2012-barrierefreier-modus/>
+<https://community.kaspersky.com/b2c-deutschsprachiges-benutzer-forum-62/barrierefreiheit-von-kaspersky-produkten-6290>
 
 Dort finden Sie auch die aktuelle Version der Erweiterung zum Download.
+
+ein Forum mit älteren Beiträgen zur Barrierefreiheit gibt es hier:
+<https://forum.kaspersky.com/index.php?/topic/210098-kis-2012-barrierefreier-modus/>
 

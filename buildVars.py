@@ -24,7 +24,7 @@ addon_info = {
 	# Author(s)
 	"addon_author" : u"David Parduhn <xkill85@gmx.net>",
 	# URL for the add-on documentation support
-	"addon_url" : None,
+	"addon_url" : "https://github.com/dave090679/avp/releases",
 	# Documentation file name
 	"addon_docFileName" : "readme.html",
 	"lastTestedNVDAVersion": "2023.1"
